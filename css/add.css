@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Bodoni Moda SC', serif;
+    background: linear-gradient(to bottom, #00416A, #E4E5E6);
+    color: #fff;
+    margin: 0;
+  
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"], 
+form input[type="number"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px; 
+}
+
+form input[type="submit"]:hover {
+    background: #FFC107;
+}
+

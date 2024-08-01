@@ -1,0 +1,82 @@
+body {    
+    background: linear-gradient(to bottom, #00416A, #E4E5E6);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bodoni Moda SC', serif;
+    margin: 0;
+   
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    
+  }
+
+  #incription,
+  #connexion {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+  }
+  #incription{
+    margin-right: 25em;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  input[type="submit"]:hover {
+    background: #FFC107;
+}
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    #container {
+      flex-direction: column; /* Ensure vertical stacking */
+    }
+    #incription, #connexion {
+      width: 100%; /* Make full width */
+    }
+  }
